@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cal-linebot"
+version = "0.1.0"
+description = ""
+authors = ["yutatoramoto"]
+readme = "README.md"
+packages = [{include = "cal_linebot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.3"
+line-bot-sdk = "^2.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
